@@ -1,0 +1,16 @@
+# The environment itself (environment/askbc) is pure standard-library Python 3.10+.
+# These are only needed for the drivers, training and capability evals.
+
+# askbc.drivers.openai_chat — evaluate any OpenAI-compatible endpoint
+openai>=1.40
+
+# experiments/grpo/train_grpo.py — GRPO + LoRA with vLLM colocate (versions used in the reported runs)
+torch
+trl==1.13.*
+peft
+datasets
+vllm
+transformers
+
+# experiments/evals/capability.sh — IFEval / GSM8K
+lm-eval

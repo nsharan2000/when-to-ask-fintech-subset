@@ -1,0 +1,267 @@
+{
+ "subsets": {
+  "all 48 pairs": 48,
+  "pairs Opus AND Fable both got right": 20,
+  "pairs Opus OR Fable got wrong": 28
+ },
+ "table": {
+  "all 48 pairs": {
+   "claude-opus": {
+    "n_pairs": 48,
+    "paired_acc": 0.5833333333333334,
+    "ask_side_success": 0.9454545454545454,
+    "harm_rate": 0.03636363636363636,
+    "over_ask_rate": 0.36585365853658536
+   },
+   "claude-fable": {
+    "n_pairs": 48,
+    "paired_acc": 0.4791666666666667,
+    "ask_side_success": 0.8727272727272727,
+    "harm_rate": 0.05454545454545454,
+    "over_ask_rate": 0.2926829268292683
+   },
+   "claude-sonnet": {
+    "n_pairs": 48,
+    "paired_acc": 0.375,
+    "ask_side_success": 0.7454545454545455,
+    "harm_rate": 0.03636363636363636,
+    "over_ask_rate": 0.4146341463414634
+   },
+   "claude-haiku": {
+    "n_pairs": 48,
+    "paired_acc": 0.1875,
+    "ask_side_success": 0.7272727272727273,
+    "harm_rate": 0.09090909090909091,
+    "over_ask_rate": 0.7073170731707317
+   },
+   "qwen3-8b": {
+    "n_pairs": 46,
+    "paired_acc": 0.30434782608695654,
+    "ask_side_success": 0.6037735849056604,
+    "harm_rate": 0.32075471698113206,
+    "over_ask_rate": 0.3076923076923077
+   },
+   "qwen3-4b-instruct-2507": {
+    "n_pairs": 48,
+    "paired_acc": 0.2708333333333333,
+    "ask_side_success": 0.43636363636363634,
+    "harm_rate": 0.23636363636363636,
+    "over_ask_rate": 0.3170731707317073
+   },
+   "qwen3-4b-thinking": {
+    "n_pairs": 46,
+    "paired_acc": 0.15217391304347827,
+    "ask_side_success": 0.3269230769230769,
+    "harm_rate": 0.38461538461538464,
+    "over_ask_rate": 0.35
+   },
+   "llama-3.1-8b-instruct": {
+    "n_pairs": 48,
+    "paired_acc": 0.041666666666666664,
+    "ask_side_success": 0.2,
+    "harm_rate": 0.4909090909090909,
+    "over_ask_rate": 0.43902439024390244
+   },
+   "mistral-7b-instruct-v0.3": {
+    "n_pairs": 46,
+    "paired_acc": 0.0,
+    "ask_side_success": 0.11320754716981132,
+    "harm_rate": 0.018867924528301886,
+    "over_ask_rate": 0.02564102564102564
+   },
+   "trained-run3ck300": {
+    "n_pairs": 48,
+    "paired_acc": 0.5208333333333334,
+    "ask_side_success": 0.6909090909090909,
+    "harm_rate": 0.16363636363636364,
+    "over_ask_rate": 0.24390243902439024
+   },
+   "trained-run3ck250": {
+    "n_pairs": 48,
+    "paired_acc": 0.4375,
+    "ask_side_success": 0.5454545454545454,
+    "harm_rate": 0.23636363636363636,
+    "over_ask_rate": 0.1951219512195122
+   },
+   "trained-run1ck200": {
+    "n_pairs": 48,
+    "paired_acc": 0.3958333333333333,
+    "ask_side_success": 0.6545454545454545,
+    "harm_rate": 0.2,
+    "over_ask_rate": 0.36585365853658536
+   }
+  },
+  "pairs Opus AND Fable both got right": {
+   "claude-opus": {
+    "n_pairs": 20,
+    "paired_acc": 1.0,
+    "ask_side_success": 1.0,
+    "harm_rate": 0.0,
+    "over_ask_rate": 0.0
+   },
+   "claude-fable": {
+    "n_pairs": 20,
+    "paired_acc": 1.0,
+    "ask_side_success": 1.0,
+    "harm_rate": 0.0,
+    "over_ask_rate": 0.0
+   },
+   "claude-sonnet": {
+    "n_pairs": 20,
+    "paired_acc": 0.75,
+    "ask_side_success": 0.9,
+    "harm_rate": 0.0,
+    "over_ask_rate": 0.15
+   },
+   "claude-haiku": {
+    "n_pairs": 20,
+    "paired_acc": 0.2,
+    "ask_side_success": 0.75,
+    "harm_rate": 0.0,
+    "over_ask_rate": 0.75
+   },
+   "qwen3-8b": {
+    "n_pairs": 20,
+    "paired_acc": 0.5,
+    "ask_side_success": 0.65,
+    "harm_rate": 0.25,
+    "over_ask_rate": 0.15
+   },
+   "qwen3-4b-instruct-2507": {
+    "n_pairs": 20,
+    "paired_acc": 0.45,
+    "ask_side_success": 0.55,
+    "harm_rate": 0.1,
+    "over_ask_rate": 0.15
+   },
+   "qwen3-4b-thinking": {
+    "n_pairs": 20,
+    "paired_acc": 0.2,
+    "ask_side_success": 0.4,
+    "harm_rate": 0.25,
+    "over_ask_rate": 0.25
+   },
+   "llama-3.1-8b-instruct": {
+    "n_pairs": 20,
+    "paired_acc": 0.05,
+    "ask_side_success": 0.35,
+    "harm_rate": 0.35,
+    "over_ask_rate": 0.3
+   },
+   "mistral-7b-instruct-v0.3": {
+    "n_pairs": 19,
+    "paired_acc": 0.0,
+    "ask_side_success": 0.10526315789473684,
+    "harm_rate": 0.0,
+    "over_ask_rate": 0.05263157894736842
+   },
+   "trained-run3ck300": {
+    "n_pairs": 20,
+    "paired_acc": 0.7,
+    "ask_side_success": 0.75,
+    "harm_rate": 0.05,
+    "over_ask_rate": 0.05
+   },
+   "trained-run3ck250": {
+    "n_pairs": 20,
+    "paired_acc": 0.65,
+    "ask_side_success": 0.7,
+    "harm_rate": 0.1,
+    "over_ask_rate": 0.05
+   },
+   "trained-run1ck200": {
+    "n_pairs": 20,
+    "paired_acc": 0.6,
+    "ask_side_success": 0.75,
+    "harm_rate": 0.0,
+    "over_ask_rate": 0.2
+   }
+  },
+  "pairs Opus OR Fable got wrong": {
+   "claude-opus": {
+    "n_pairs": 28,
+    "paired_acc": 0.2857142857142857,
+    "ask_side_success": 0.9142857142857143,
+    "harm_rate": 0.05714285714285714,
+    "over_ask_rate": 0.7142857142857143
+   },
+   "claude-fable": {
+    "n_pairs": 28,
+    "paired_acc": 0.10714285714285714,
+    "ask_side_success": 0.8,
+    "harm_rate": 0.08571428571428572,
+    "over_ask_rate": 0.5714285714285714
+   },
+   "claude-sonnet": {
+    "n_pairs": 28,
+    "paired_acc": 0.10714285714285714,
+    "ask_side_success": 0.6571428571428571,
+    "harm_rate": 0.05714285714285714,
+    "over_ask_rate": 0.6666666666666666
+   },
+   "claude-haiku": {
+    "n_pairs": 28,
+    "paired_acc": 0.17857142857142858,
+    "ask_side_success": 0.7142857142857143,
+    "harm_rate": 0.14285714285714285,
+    "over_ask_rate": 0.6666666666666666
+   },
+   "qwen3-8b": {
+    "n_pairs": 26,
+    "paired_acc": 0.15384615384615385,
+    "ask_side_success": 0.5757575757575758,
+    "harm_rate": 0.36363636363636365,
+    "over_ask_rate": 0.47368421052631576
+   },
+   "qwen3-4b-instruct-2507": {
+    "n_pairs": 28,
+    "paired_acc": 0.14285714285714285,
+    "ask_side_success": 0.37142857142857144,
+    "harm_rate": 0.3142857142857143,
+    "over_ask_rate": 0.47619047619047616
+   },
+   "qwen3-4b-thinking": {
+    "n_pairs": 26,
+    "paired_acc": 0.11538461538461539,
+    "ask_side_success": 0.28125,
+    "harm_rate": 0.46875,
+    "over_ask_rate": 0.45
+   },
+   "llama-3.1-8b-instruct": {
+    "n_pairs": 28,
+    "paired_acc": 0.03571428571428571,
+    "ask_side_success": 0.11428571428571428,
+    "harm_rate": 0.5714285714285714,
+    "over_ask_rate": 0.5714285714285714
+   },
+   "mistral-7b-instruct-v0.3": {
+    "n_pairs": 27,
+    "paired_acc": 0.0,
+    "ask_side_success": 0.11764705882352941,
+    "harm_rate": 0.029411764705882353,
+    "over_ask_rate": 0.0
+   },
+   "trained-run3ck300": {
+    "n_pairs": 28,
+    "paired_acc": 0.39285714285714285,
+    "ask_side_success": 0.6571428571428571,
+    "harm_rate": 0.22857142857142856,
+    "over_ask_rate": 0.42857142857142855
+   },
+   "trained-run3ck250": {
+    "n_pairs": 28,
+    "paired_acc": 0.2857142857142857,
+    "ask_side_success": 0.45714285714285713,
+    "harm_rate": 0.3142857142857143,
+    "over_ask_rate": 0.3333333333333333
+   },
+   "trained-run1ck200": {
+    "n_pairs": 28,
+    "paired_acc": 0.25,
+    "ask_side_success": 0.6,
+    "harm_rate": 0.3142857142857143,
+    "over_ask_rate": 0.5238095238095238
+   }
+  }
+ }
+}

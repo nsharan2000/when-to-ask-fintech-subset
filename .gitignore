@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ruff_cache/
+.DS_Store
+.env
+venvs/
+hf_cache/
+# model weights and adapters are not versioned (regenerate with experiments/grpo/train_grpo.py)
+*.pt
+*.safetensors
+experiments/grpo/*/checkpoint-*/
+experiments/grpo/*/final/

@@ -1,0 +1,15 @@
+The Ask First scenario dataset (all files under data/, except metr-incidents.json) is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 Muhammad Zane Abdullah, Sharan Nagarajan, Parivrudh Rajeev Sharma
+
+You are free to share and adapt the material for any purpose, including commercially, provided you give
+appropriate credit, link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Suggested attribution: "Ask First scenario dataset (When to Ask, Apart Research AI Incident Response Sprint 2026),
+https://github.com/nsharan2000/when-to-ask-fintech-subset, CC BY 4.0."
+
+data/metr-incidents.json is METR's public agent-incident database (Frontier Risk Report, Appendix D, 19 May 2026,
+https://metr.org/blog/2026-05-19-frontier-risk-report/ and https://metr.org/agent-incidents/), redistributed here
+unchanged as the seed list for data/metr_derived/. It remains METR's work; consult METR for its terms.
